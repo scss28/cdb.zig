@@ -1,5 +1,5 @@
 ## Usage
-Fetch with `zig fetch --save https://github.com/scss28/cdb.zig/archive/refs/tags/<version>.zig`.
+Fetch with `zig fetch --save https://github.com/scss28/cdb.zig/archive/refs/tags/<version>.zip`.
 ```Rust
 pub fn build(b: *std.Build) void {
     defer _ = @import("cdb").addStep(b, "cdb");
